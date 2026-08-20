@@ -1,2 +1,8 @@
 hello
 .DS_Store
+.env
+node_modules/
+.ipynb_checkpoints/
+runs/
+mrpc_train.csv
+mrpc_train.parquet
