@@ -1,0 +1,15 @@
+[project]
+name = "test"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "jupyter>=1.0",
+    "scikit-learn>=1.4",
+]
+
+[project.optional-dependencies]
+torch = ["torch>=2.3", "torchversion>=0.18"]
+llm = ["anthropic>=0.39", "openai>=1.50"]

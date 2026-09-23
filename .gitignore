@@ -6,3 +6,5 @@ node_modules/
 runs/
 mrpc_train.csv
 mrpc_train.parquet
+__pycache__/
+*.egg-info/
